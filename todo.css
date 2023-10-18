@@ -1,0 +1,73 @@
+body {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .container {
+    border: 2px solid black;
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+  }
+
+  input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid;
+    outline: none;
+    font-size: 19px;
+  }
+
+  button {
+    /* width: 60px; */
+    height: 41px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+  }
+
+  .clrBtn {
+    height: 41px;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    margin-left: 20px;
+
+  }
+
+  .btnsClear {
+    padding: 8px;
+  }
+
+  .text ul {
+    position: relative;
+    background-color: #fff;
+    color: black;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+    border: 1px gray solid;
+    border-radius: 7px;
+  }
+
+  .text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .del {
+    color: red;
+  }
+
+  #taskCount {
+    margin: 0px 5px 0px 5px;
+    font-weight: bold;
+  }
